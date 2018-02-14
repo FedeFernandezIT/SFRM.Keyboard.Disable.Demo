@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SFRM.Keyboard.Disable.Demo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Keyboard Disable Demo" Height="350" Width="525" Activated="Window_Activated" Deactivated="Window_Deactivated" Closed="Window_Closed">
     <Grid>
-        
+        <TextBox x:Name="TextKeys" TextWrapping="Wrap" Text="Escriba un texto ..." HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" FontFamily="Segoe UI Emoji" FontSize="20" Background="#FFF2F780"/>
     </Grid>
 </Window>
